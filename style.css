@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: space-around;
 }
+
 .menus{
     list-style: none;
     display: flex;
@@ -21,4 +22,50 @@
 }
 .menus li:hover{
     color:rgb(11, 11, 245);
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url(background.png),linear-gradient(45deg,rgb(8, 8, 8),rgb(14, 12, 12));
+    
+}
+.banner-text{
+    color:rgb(246, 247, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding-bottom: 20px;
+}
+.banner-text h1{
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+.banner-pic img{
+    height: 350px;
+    width: 350px;
+}
+.banner-button{
+    background-color: red;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 7%;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.poster{
+
+}
+.poster-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.poster h1{
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 40px;
+.poster-text{
+    font-size: large;
 }
