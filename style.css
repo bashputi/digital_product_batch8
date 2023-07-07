@@ -59,13 +59,36 @@
 }
 .poster-part{
     display: flex;
-    align-items: center;
+    
     justify-content: space-around;
+}
+.poster-part img{
+    align-items: center;
 }
 .poster h1{
     font-size: 55px;
     text-align: center;
     margin-bottom: 40px;
-.poster-text{
-    font-size: large;
+}
+.box{
+    display: flex;
+    justify-content: center;
+   
+}
+.box h3{
+    text-align: center;
+}
+.box button{
+   background-color: black;
+   color: white;
+   padding: 10px 20px;
+   border-radius: 7%;
+   border: none;
+   margin-top: 20px;
+   margin-left: 30%;
+
+}
+.box1, .box2, .box3{
+     border: 0.3px solid black;
+     padding: 0 10px;
 }
